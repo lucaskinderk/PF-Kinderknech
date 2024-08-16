@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": "01",
+      "firstName": "Lucas",
+      "lastName": "Kinder",
+      "email": "lucas@mail.com",
+      "password": "123456",
+      "token": "jfsdk43dsakdjasb4Dsdsa$@#lk",
+      "role": "ADMIN"
+    },
+    {
+      "id": "02",
+      "firstName": "Edinson",
+      "lastName": "Cavani",
+      "email": "test@mail.com",
+      "password": "123456",
+      "token": "jfsdk43bghkr3db4Dsdsa$d@#ec",
+      "role": "ESTUDIANTE"
+    }
+  ],
+  "courses": [
+    {
+      "id": "abc123",
+      "name": "JavaScript Avanzado",
+      "price": 55000
+    },
+    {
+      "id": "def456",
+      "name": "Angular Completo",
+      "price": 15000
+    },
+    {
+      "id": "ghi789",
+      "name": "React para Principiantes",
+      "price": 12000
+    },
+    {
+      "id": "jkl321",
+      "name": "Desarrollo Backend con Node.js",
+      "price": 20000
+    },
+    {
+      "id": "mno654",
+      "name": "Full-Stack con Spring Boot y Angular",
+      "price": 25000
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop Gamer",
+      "price": 50000,
+      "id": "pqr987"
+    },
+    {
+      "name": "Teclado Mecánico",
+      "price": 3000,
+      "id": "stu654"
+    },
+    {
+      "name": "Monitor 4K",
+      "price": 15000,
+      "id": "vwx321"
+    },
+    {
+      "name": "Mouse Inalámbrico",
+      "price": 2000,
+      "id": "yza123"
+    },
+    {
+      "name": "Silla Ergonómica",
+      "price": 12000,
+      "id": "bcd456"
+    }
+  ],
+  "students": [
+    {
+      "id": "efg789",
+      "name": "Martin"
+    },
+    {
+      "id": "hij012",
+      "name": "Ana"
+    },
+    {
+      "id": "klm345",
+      "name": "Carlos"
+    },
+    {
+      "id": "nop678",
+      "name": "Lucía"
+    },
+    {
+      "id": "qrs901",
+      "name": "Javier"
+    }
+  ],
+  "sales": [
+    {
+      "productId": "pqr987",
+      "studentId": "efg789",
+      "id": "tuv234"
+    },
+    {
+      "id": "wxy567",
+      "productId": "stu654",
+      "studentId": "efg789"
+    },
+    {
+      "id": "zab890",
+      "productId": "vwx321",
+      "studentId": "hij012"
+    },
+    {
+      "id": "cde123",
+      "productId": "yza123",
+      "studentId": "klm345"
+    },
+    {
+      "id": "fgh456",
+      "productId": "bcd456",
+      "studentId": "nop678"
+    },
+    {
+      "id": "ijk789",
+      "productId": "pqr987",
+      "studentId": "qrs901"
+    }
+  ]
+}

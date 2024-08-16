@@ -1,0 +1,16 @@
+<mat-form-field>
+  <input [formControl]="searchControl" matInput />
+  <mat-icon matSuffix>search</mat-icon>
+</mat-form-field>
+
+@if (loading) {
+<p>Cargando....</p>
+} @else {
+<h2>Valor del contador: {{ myInterval$ | async }}</h2>
+
+<h3>Profesores: {{ profesores | json }}</h3>
+
+<h3>Cursos:</h3>
+<pre>{{ cursos | json }}</pre>
+
+}
