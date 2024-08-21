@@ -1,130 +1,122 @@
 {
   "users": [
     {
-      "id": "01",
-      "firstName": "Lucas",
-      "lastName": "Kinder",
-      "email": "lucas@mail.com",
-      "password": "123456",
-      "token": "jfsdk43dsakdjasb4Dsdsa$@#lk",
-      "role": "ADMIN"
-    },
-    {
-      "id": "02",
       "firstName": "Edinson",
       "lastName": "Cavani",
-      "email": "test@mail.com",
-      "password": "123456",
-      "token": "jfsdk43bghkr3db4Dsdsa$d@#ec",
-      "role": "ESTUDIANTE"
-    }
-  ],
-  "courses": [
-    {
-      "id": "abc123",
-      "name": "JavaScript Avanzado",
-      "price": 55000
+      "address": ") de julio 1580",
+      "phone": "3442512818",
+      "email": "edinson@gmail.com",
+      "password": "edinson",
+      "role": "USER",
+      "id": "4"
     },
     {
-      "id": "def456",
-      "name": "Angular Completo",
-      "price": 15000
-    },
-    {
-      "id": "ghi789",
-      "name": "React para Principiantes",
-      "price": 12000
-    },
-    {
-      "id": "jkl321",
-      "name": "Desarrollo Backend con Node.js",
-      "price": 20000
-    },
-    {
-      "id": "mno654",
-      "name": "Full-Stack con Spring Boot y Angular",
-      "price": 25000
-    }
-  ],
-  "products": [
-    {
-      "name": "Laptop Gamer",
-      "price": 50000,
-      "id": "pqr987"
-    },
-    {
-      "name": "Teclado Mecánico",
-      "price": 3000,
-      "id": "stu654"
-    },
-    {
-      "name": "Monitor 4K",
-      "price": 15000,
-      "id": "vwx321"
-    },
-    {
-      "name": "Mouse Inalámbrico",
-      "price": 2000,
-      "id": "yza123"
-    },
-    {
-      "name": "Silla Ergonómica",
-      "price": 12000,
-      "id": "bcd456"
+      "firstName": "Lucas",
+      "lastName": "Kinderknech",
+      "address": "Henry 918",
+      "phone": "2974099943",
+      "email": "lucaskinderk@gmail.com",
+      "password": "lucas",
+      "role": "ADMIN",
+      "id": "3a07"
     }
   ],
   "students": [
     {
-      "id": "efg789",
-      "name": "Martin"
+      "firstName": "Martin",
+      "lastName": "Palermo",
+      "email": "martin@gmail.com",
+      "gender": "M",
+      "perfil": "Desarrollador",
+      "id": "b8b5"
     },
     {
-      "id": "hij012",
-      "name": "Ana"
+      "firstName": "Patricia",
+      "lastName": "Palmer",
+      "email": "patricia@mail.com",
+      "gender": "F",
+      "perfil": "IT",
+      "id": "5a1f"
     },
     {
-      "id": "klm345",
-      "name": "Carlos"
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "email": "juan@gmail.com",
+      "gender": "F",
+      "perfil": "Usuario final",
+      "id": "2a75"
     },
     {
-      "id": "nop678",
-      "name": "Lucía"
+      "id": "26c7",
+      "firstName": "Nicolas",
+      "lastName": "Torres",
+      "email": "nicolas@gmail.com",
+      "gender": "M",
+      "perfil": "Usuario final",
+      "createdAt": "2024-06-03T23:26:20.346Z"
     },
     {
-      "id": "qrs901",
-      "name": "Javier"
+      "id": "7304",
+      "firstName": "Manuel",
+      "lastName": "Carvajal",
+      "email": "manuel@gmail.com",
+      "gender": "M",
+      "perfil": "Desarrollador",
+      "createdAt": "2024-06-03T23:32:39.241Z"
     }
   ],
-  "sales": [
+  "courses": [
     {
-      "productId": "pqr987",
-      "studentId": "efg789",
-      "id": "tuv234"
+      "nombre": "Angular pro",
+      "cantHs": "34",
+      "cantClases": "24",
+      "tutor": "Steve Jobs",
+      "id": "f4f2"
     },
     {
-      "id": "wxy567",
-      "productId": "stu654",
-      "studentId": "efg789"
+      "nombre": "Java",
+      "cantHs": "4",
+      "cantClases": "4",
+      "tutor": "Pablo Naruto",
+      "id": "5c18"
     },
     {
-      "id": "zab890",
-      "productId": "vwx321",
-      "studentId": "hij012"
+      "id": "f0f0",
+      "nombre": "Aleman",
+      "cantHs": "30",
+      "cantClases": "15",
+      "tutor": "Paola Gallardo",
+      "createdAt": "2024-06-03T23:27:01.721Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "5fcf",
+      "studentId": "2a75",
+      "courseId": "f4f2",
+      "userId": "3a07",
+      "fechaInscripcion": "2024-06-03T21:52:37.504Z"
     },
     {
-      "id": "cde123",
-      "productId": "yza123",
-      "studentId": "klm345"
+      "id": "498b",
+      "studentId": "b8b5",
+      "courseId": "5c18",
+      "userId": "3a07",
+      "fechaInscripcion": "2024-06-03T22:00:00.916Z"
     },
     {
-      "id": "fgh456",
-      "productId": "bcd456",
-      "studentId": "nop678"
+      "id": "219d",
+      "studentId": "2a75",
+      "courseId": "5c18",
+      "userId": "3a07",
+      "fechaInscripcion": "2024-06-03T22:10:46.338Z"
     },
     {
-      "id": "ijk789",
-      "productId": "pqr987",
-      "studentId": "qrs901"
+      "id": "2841",
+      "studentId": "26c7",
+      "courseId": "f0f0",
+      "userId": "4",
+      "fechaInscripcion": "2024-06-03T23:28:45.223Z"
     }
   ]
 }

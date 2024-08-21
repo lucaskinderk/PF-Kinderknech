@@ -1,57 +1,30 @@
-🌟 PfKinderknech - 
-Autenticación: 
-Usuario para que pruebe el profesor: lucas@mail.com   pass: 123456
+# PFKinderknech
+Para poder ingresar al proyecto como administrador, usar el siguiente
+Usuario: lucaskinderk@gmail.com 
+Pass: lucas
 
-Usuario para el resto de los alumnos: test@mail.com   pass: 123456
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
-Este proyecto fue generado con Angular CLI versión 18.0.3.
+## Development server
 
-🚀 Servidor de Desarrollo
-Para iniciar el servidor de desarrollo:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-ng serve -o
-Navega a http://localhost:4200/ en tu navegador.
-La aplicación se recargará automáticamente al detectar cambios en los archivos fuente.
+## Code scaffolding
 
-🛠️ Creación de Componentes
-Para generar un nuevo componente:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-ng generate component nombre-del-componente
+## Build
 
-También puedes generar otros elementos usando:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-ng generate directive ➡️ Directivas
-ng generate pipe ➡️ Pipes
-ng generate service ➡️ Servicios
-ng generate class ➡️ Clases
-ng generate guard ➡️ Guards
-ng generate interface ➡️ Interfaces
-ng generate enum ➡️ Enumeraciones
-ng generate module ➡️ Módulos
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-🏗️ Construcción del Proyecto
-Para construir el proyecto y generar los artefactos:
-ng build
-Los archivos resultantes se almacenarán en el directorio dist/.
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-🧪 Ejecución de Pruebas Unitarias
-Para ejecutar las pruebas unitarias:
-ng test
-Las pruebas se ejecutarán utilizando Karma: https://karma-runner.github.io
+## Further help
 
-
-
-🧩 Ejecución de Pruebas End-to-End
-Para ejecutar pruebas end-to-end:
-ng e2e
-
-Nota: Antes de utilizar este comando, debes agregar un paquete que implemente capacidades de pruebas end-to-end.
-
-📚 Ayuda Adicional
-Para obtener más ayuda sobre Angular CLI:
-ng help
-O consulta la Visión General y Referencia de Comandos de Angular CLI.
-
-PowerByLucas.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

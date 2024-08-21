@@ -1,4 +1,4 @@
 export const environment = {
-  envName: 'Desarrollo local',
-  apiUrl: 'http://localhost:3000',
-};
+    isProd: false,
+    baseAPIURL: 'http://localhost:3000',
+  };

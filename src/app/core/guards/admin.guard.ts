@@ -1,21 +1,19 @@
-import { inject } from '@angular/core';
 import { CanActivateFn, Router } from '@angular/router';
-import { AuthService } from '../services/auth.service';
-import { first, map, skip, tap } from 'rxjs';
+import { AuthService } from '../auth/auth.service';
+import { inject } from '@angular/core';
+import { map } from 'rxjs';
 import { Store } from '@ngrx/store';
-import { selectAuthUser } from '../store/auth/auth.selectors';
+import { authUser } from '../../store/auth/auth.selectors';
 
 export const adminGuard: CanActivateFn = (route, state) => {
-  const router = inject(Router);
   const store = inject(Store);
-
-  return store
-    .select(selectAuthUser)
-    .pipe(
-      map((authUser) =>
-        authUser?.role !== 'ADMIN'
-          ? router.createUrlTree(['dashboard', 'home'])
-          : true
-      )
-    );
+  const router = inject(Router);
+  return store.select(authUser).pipe(
+    map((authUser) => {
+      if (authUser?.role !== 'ADMIN') {
+        return router.createUrlTree(['nav', 'home']);
+      }
+      return true;
+    })
+  );
 };
