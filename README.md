@@ -1,7 +1,8 @@
 # PFKinderknech
-Para poder ingresar al proyecto como administrador, usar el siguiente
+Para poder ingresar al proyecto como administrador, usar el siguiente...
+
 Usuario: lucaskinderk@gmail.com 
-Pass: lucas
+ Pass: lucas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 

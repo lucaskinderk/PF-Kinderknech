@@ -1,24 +1,37 @@
 {
   "users": [
     {
-      "firstName": "Edinson",
-      "lastName": "Cavani",
-      "address": ") de julio 1580",
-      "phone": "3442512818",
-      "email": "edinson@gmail.com",
-      "password": "edinson",
-      "role": "USER",
-      "id": "4"
+      "id": "144d",
+      "firstName": "test",
+      "lastName": "test",
+      "address": "la calle test",
+      "phone": "1232346546",
+      "email": "test@gmail.com",
+      "password": "test",
+      "role": "ADMIN",
+      "createdAt": "2024-08-22T03:10:27.022Z"
     },
     {
-      "firstName": "Lucas",
+      "id": "1209",
+      "firstName": "lucas",
       "lastName": "Kinderknech",
-      "address": "Henry 918",
+      "address": "Ing Henry 918",
       "phone": "2974099943",
       "email": "lucaskinderk@gmail.com",
       "password": "lucas",
       "role": "ADMIN",
-      "id": "3a07"
+      "createdAt": "2024-08-22T03:46:01.800Z"
+    },
+    {
+      "id": "0c00",
+      "firstName": "juan",
+      "lastName": "perez",
+      "address": "la calle perez",
+      "phone": "4246546546",
+      "email": "juan@gmail.com",
+      "password": "juan",
+      "role": "USER",
+      "createdAt": "2024-08-22T03:47:03.782Z"
     }
   ],
   "students": [
@@ -39,14 +52,6 @@
       "id": "5a1f"
     },
     {
-      "firstName": "Juan",
-      "lastName": "Perez",
-      "email": "juan@gmail.com",
-      "gender": "F",
-      "perfil": "Usuario final",
-      "id": "2a75"
-    },
-    {
       "id": "26c7",
       "firstName": "Nicolas",
       "lastName": "Torres",
@@ -56,13 +61,22 @@
       "createdAt": "2024-06-03T23:26:20.346Z"
     },
     {
-      "id": "7304",
-      "firstName": "Manuel",
-      "lastName": "Carvajal",
-      "email": "manuel@gmail.com",
+      "id": "e8b3",
+      "firstName": "Nicolas",
+      "lastName": "Torres",
+      "email": "nico@gmail.com",
       "gender": "M",
-      "perfil": "Desarrollador",
-      "createdAt": "2024-06-03T23:32:39.241Z"
+      "perfil": "Usuario final",
+      "createdAt": "2024-08-21T21:46:17.369Z"
+    },
+    {
+      "id": "4cd2",
+      "firstName": "Francisco",
+      "lastName": "Ramirez",
+      "email": "pancho@gmail.com",
+      "gender": "M",
+      "perfil": "Usuario final",
+      "createdAt": "2024-08-22T03:08:21.169Z"
     }
   ],
   "courses": [
@@ -81,42 +95,82 @@
       "id": "5c18"
     },
     {
-      "id": "f0f0",
-      "nombre": "Aleman",
-      "cantHs": "30",
-      "cantClases": "15",
-      "tutor": "Paola Gallardo",
-      "createdAt": "2024-06-03T23:27:01.721Z"
+      "id": "b550",
+      "nombre": "Excel",
+      "cantHs": "40",
+      "cantClases": "8",
+      "tutor": "Maria Solana Quinteros",
+      "createdAt": "2024-08-21T21:47:03.764Z"
+    },
+    {
+      "nombre": "Algebra",
+      "cantHs": "1000",
+      "cantClases": "100",
+      "tutor": "Lucrecia Etchemaite",
+      "id": "3c9f"
     }
   ],
   "registrations": [
     {
       "id": "5fcf",
-      "studentId": "2a75",
+      "studentId": null,
       "courseId": "f4f2",
-      "userId": "3a07",
+      "userId": null,
       "fechaInscripcion": "2024-06-03T21:52:37.504Z"
     },
     {
       "id": "498b",
       "studentId": "b8b5",
       "courseId": "5c18",
-      "userId": "3a07",
+      "userId": null,
       "fechaInscripcion": "2024-06-03T22:00:00.916Z"
     },
     {
       "id": "219d",
-      "studentId": "2a75",
+      "studentId": null,
       "courseId": "5c18",
-      "userId": "3a07",
+      "userId": null,
       "fechaInscripcion": "2024-06-03T22:10:46.338Z"
     },
     {
       "id": "2841",
       "studentId": "26c7",
-      "courseId": "f0f0",
-      "userId": "4",
+      "courseId": null,
+      "userId": null,
       "fechaInscripcion": "2024-06-03T23:28:45.223Z"
+    },
+    {
+      "id": "b3d9",
+      "studentId": "e8b3",
+      "courseId": "b550",
+      "userId": null,
+      "fechaInscripcion": "2024-08-21T21:47:20.007Z"
+    },
+    {
+      "id": "92cd",
+      "studentId": "e8b3",
+      "courseId": "b550",
+      "fechaInscripcion": "2024-08-22T02:54:06.642Z"
+    },
+    {
+      "id": "bd2e",
+      "studentId": null,
+      "courseId": "5c18",
+      "fechaInscripcion": "2024-08-22T02:55:42.932Z"
+    },
+    {
+      "id": "34fe",
+      "studentId": "4cd2",
+      "courseId": "3c9f",
+      "userId": null,
+      "fechaInscripcion": "2024-08-22T03:08:33.063Z"
+    },
+    {
+      "id": "1192",
+      "studentId": "4cd2",
+      "courseId": "b550",
+      "userId": "3a07",
+      "fechaInscripcion": "2024-08-22T03:47:34.192Z"
     }
   ]
 }
